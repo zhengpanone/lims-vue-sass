@@ -4,7 +4,7 @@
       <div v-show="regShow">
         <el-form :model="regForm" :rules="loginRules" ref="regForm" label-position="left">
             <div class="title-container">
-              <h3 class="title"><img src="./../assets/login-logo.png"></h3>
+              <!-- <h3 class="title"><img src="./../assets/login-logo.png"></h3> -->
             </div>
             <el-form-item prop="mobile">
               <el-input name="mobile" type="text" clearable v-model="regForm.mobile" placeholder="11位手机号" />
@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import { checkPhone, checkPassword, checkEmail } from './../../filters/index'
+import { checkPhone, checkPassword, checkEmail } from '@/filters/index'
 import { registerStep1, registerStep2, regCode } from '@/api/base/frame'
 import shajs from 'sha.js'
 

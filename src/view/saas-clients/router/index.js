@@ -6,13 +6,13 @@
  * @Last Modified time: 2018-09-03 11:12:47
  */
 
-import Layout from '@/module-dashboard/pages/layout'
+import Layout from '@/view/dashboard/pages/layout'
 const _import = require('@/router/import_' + process.env.NODE_ENV)
 
 export default [
   {
     root: true,
-    path: '/saas-clients',//父路径
+    path: '/saas-clients', // 父路径
     component: Layout,
     redirect: 'noredirect',
     name: 'saas-clients',
@@ -22,14 +22,14 @@ export default [
     },
     children: [
       {
-        path: 'index',  //请求地址   -- /saas-cliens/index
-        component: _import('saas-clients/pages/index'), //跳转的vue视图
+        path: 'index', // 请求地址   -- /saas-cliens/index
+        component: _import('saas-clients/pages/index'), // 跳转的vue视图
         name: 'saas-clients-index',
         meta: {title: 'SAAS企业', icon: 'component', noCache: true}
       },
       {
         path: 'details/:id',
-        component: _import('saas-clients/pages/detail'), //跳转的vue视图
+        component: _import('saas-clients/pages/detail'), // 跳转的vue视图
         name: 'saas-clients-detail',
         meta: {title: 'SAAS企业详情', icon: 'component', noCache: true}
       }

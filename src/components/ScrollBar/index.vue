@@ -45,7 +45,7 @@ export default {
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
-@import '../../styles/variables.scss';
+@import '../../assets/scss/variables.scss';
 
 .scroll-container {
   position: relative;

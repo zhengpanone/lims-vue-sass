@@ -158,7 +158,7 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
-  @import "./../../styles/variables";
+  @import "../../../assets/scss/variables.scss";
   .dateIndex{
    .dateTop{
       padding: 10px;

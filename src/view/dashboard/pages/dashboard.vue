@@ -4,7 +4,7 @@
       <div class="clearfix">
         <div class='fl headL'>
           <div class="headImg">
-            <img src="../../assets/head.jpg"/>
+            <!-- <img src="../../assets/head.jpg"/> -->
           </div>
           <div class="headInfoTip">
             <p class="firstChild">早安，HR 专员，祝你开心每一天！</p>
@@ -59,7 +59,7 @@
                 <ul class="noticeList">
                   <li>
                     <div class="item">
-                        <img  src="./../../assets/img.jpeg" alt="">
+                        <!-- <img  src="./../../assets/img.jpeg" alt=""> -->
                         <div>
                           <p><span class="col">朱继柳</span> 发布了 第二十期“传智大讲堂”互动讨论获奖名单公布</p>
                           <p>2018-07-21 15:21:38</p>
@@ -68,7 +68,7 @@
                   </li>
                   <li>
                     <div class="item">
-                        <img  src="./../../assets/img.jpeg" alt="">
+                        <!-- <img  src="./../../assets/img.jpeg" alt=""> -->
                         <div>
                           <p><span class="col">朱继柳</span> 发布了 第二十期“传智大讲堂”互动讨论获奖名单公布</p>
                           <p>2018-07-21 15:21:38</p>
@@ -77,7 +77,7 @@
                   </li>
                   <li>
                     <div class="item">
-                        <img  src="./../../assets/img.jpeg" alt="">
+                        <!-- <img  src="./../../assets/img.jpeg" alt=""> -->
                         <div>
                           <p><span class="col">朱继柳</span> 发布了 第二十期“传智大讲堂”互动讨论获奖名单公布</p>
                           <p>2018-07-21 15:21:38</p>
@@ -86,7 +86,7 @@
                   </li>
                   <li>
                     <div class="item">
-                        <img  src="./../../assets/img.jpeg" alt="">
+                        <!-- <img  src="./../../assets/img.jpeg" alt=""> -->
                         <div>
                           <p><span class="col">朱继柳</span> 发布了 第二十期“传智大讲堂”互动讨论获奖名单公布</p>
                           <p>2018-07-21 15:21:38</p>
@@ -95,7 +95,7 @@
                   </li>
                   <li>
                     <div class="item">
-                        <img  src="./../../assets/img.jpeg" alt="">
+                        <!-- <img  src="./../../assets/img.jpeg" alt=""> -->
                         <div>
                           <p><span class="col">朱继柳</span> 发布了 第二十期“传智大讲堂”互动讨论获奖名单公布</p>
                           <p>2018-07-21 15:21:38</p>
@@ -104,7 +104,7 @@
                   </li>
                   <li>
                     <div class="item">
-                        <img  src="./../../assets/img.jpeg" alt="">
+                        <!-- <img  src="./../../assets/img.jpeg" alt=""> -->
                         <div>
                           <p><span class="col">朱继柳</span> 发布了 第二十期“传智大讲堂”互动讨论获奖名单公布</p>
                           <p>2018-07-21 15:21:38</p>
@@ -463,7 +463,7 @@ export default {
     display: inline-block;
     width: 76px;
     height: 76px;
-    background: url('../../assets/icon.png') no-repeat;
+    // background: url('../../assets/icon.png') no-repeat;
   }
   .iconGuide {
     background-position: 0 0;

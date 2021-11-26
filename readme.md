@@ -70,9 +70,3 @@ npm start
 
 - 代码质量分析
   http://sonar.itcast.cn/projects
-
----
-
-@传智研究院-研发部
-
-江苏传智播客教育科技股份有限公司 &nbsp;版权所有 Copyright 2006-2018, All Rights Reserved
