@@ -1,8 +1,6 @@
 import Mock from 'mockjs'
 import { param2Obj } from '@/utils'
 
-
-
 const List = []
 const count = 100
 
