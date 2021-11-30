@@ -44,14 +44,13 @@ export default {
   data () {
     return {
         activeName: 'first',
-        formData:{}
+        formData: {}
     }
   },
   methods: {
     detail(id) {
-      detail({id:id}).then(res => {
+      detail({id: id}).then(res => {
         this.formData = res.data.data
-        console.log(id)
         console.log(this.formData)
       })
     }
@@ -59,7 +58,7 @@ export default {
   // 创建完毕状态
   created() {
     var id = this.$route.params.id
-    this.detail(id);
+    this.detail(id)
   }
 }
 </script>

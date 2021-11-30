@@ -9,7 +9,7 @@ const instance = axios.create({
   timeout: 5000 // request timeout
 })
 
-const ok = "10000"
+const ok = '10000'
 
 // request interceptor
 instance.interceptors.request.use(
@@ -22,7 +22,7 @@ instance.interceptors.request.use(
   },
   error => {
     // Do something with request error
-    Message.error("对不起，出错了")
+    Message.error('对不起，出错了')
     console.log(error) // for debug
     Promise.reject(error)
   }
@@ -54,7 +54,7 @@ instance.interceptors.response.use(
           duration: 5 * 1000
         })
       }
-      return response;
+      return response
     } else {
       return response
     }
@@ -120,7 +120,7 @@ export const createFormAPI = (url, method, data) => {
   }
   config.responseType = 'json'
   config.transformRequest = [
-    function (data) {
+    function(data) {
       let ret = ''
       for (let it in data) {
         ret += encodeURIComponent(it) + '=' + encodeURIComponent(data[it]) + '&'
@@ -143,7 +143,7 @@ export const createImgAPI = (url, method, data) => {
   }
   config.responseType = 'blob'
   config.transformRequest = [
-    function (data) {
+    function(data) {
       let ret = ''
       for (let it in data) {
         ret += encodeURIComponent(it) + '=' + encodeURIComponent(data[it]) + '&'
@@ -167,7 +167,7 @@ export const createFileAPI = (url, method, data) => {
   }
   config.responseType = 'arraybuffer'
   config.transformRequest = [
-    function (data) {
+    function(data) {
       let ret = ''
       for (let it in data) {
         ret += encodeURIComponent(it) + '=' + encodeURIComponent(data[it]) + '&'

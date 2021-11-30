@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import 'normalize.css/normalize.css'// A modern alternative to CSS resets
+import 'normalize.css/normalize.css' // A modern alternative to CSS resets
 import Element from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import './assets/scss/index.scss' // global css
@@ -8,17 +8,18 @@ import router from './router'
 import store from './store'
 import i18n from '@/locales/lang' // Internationalization
 import './icons' // icon
-import './errorLog'// error log
+import './errorLog' // error log
 import * as filters from './filters' // global filters
 // font-awesome
 import 'font-awesome/css/font-awesome.css'
 import '../mock' // simulation data
 /*
-* 注册 - 业务模块
-*/
+ * 注册 - 业务模块
+ */
 import dashboard from '@/view/dashboard' // 面板
 import demo from '@/view/demo' // 面板
 import saasClients from '@/view/saas-clients' // 企业管理
+import department from '@/view/department' // 企业管理
 
 import tools from './utils/common.js'
 Vue.prototype.$tools = tools
@@ -27,10 +28,11 @@ Vue.use(tools)
 Vue.use(dashboard, store)
 Vue.use(demo, store)
 Vue.use(saasClients, store)
+Vue.use(department, store)
 
 /*
-* 注册 - 组件
-*/
+ * 注册 - 组件
+ */
 
 // 饿了么
 Vue.use(Element, {

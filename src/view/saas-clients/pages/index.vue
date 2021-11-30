@@ -50,13 +50,13 @@ export default {
   name: 'saas-clients-index',
   data () {
     return {
-      dataList:[]
+      dataList: []
     }
   },
   methods: {
     getList() {
-      //调用API发起请求
-      //res=响应数据
+      // 调用API发起请求
+      // res=响应数据
       list().then(res => {
         this.dataList = res.data.data
       })
